@@ -11,7 +11,7 @@ class KoinApp : Application() {
         super.onCreate()
 
         startKoin {
-            modules(koinModule)
+            modules(networkModule)
         }
     }
 }

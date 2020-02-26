@@ -1,8 +1,8 @@
 package com.arlanov.dishowdown
 
 import com.arlanov.dishowdown.di.koin.koinModule
-import com.arlanov.dishowdown.domain.GreetingService
-import com.arlanov.dishowdown.domain.TimeService
+import com.arlanov.dishowdown.domain.greeting.GreetingService
+import com.arlanov.dishowdown.domain.greeting.TimeService
 import junit.framework.Assert.assertEquals
 import org.junit.Test
 import org.koin.core.context.startKoin
